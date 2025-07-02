@@ -1,0 +1,14 @@
+langchain-text-splitters 
+langchain-community 
+langgraph
+langchain[google-genai]
+langchain-huggingface 
+sentence_transformers
+langchain-qdrant
+pymupdf
+keybert
+tqdm
+
+#backend
+uvicorn
+fastapi
