@@ -1,0 +1,17 @@
+# Core dependencies
+pydantic
+llama-index
+llama-index-readers-web
+llama-index-llms-gemini
+llama-index-embeddings-gemini
+llama-index-vector-stores-qdrant
+qdrant-client
+python-dotenv
+
+# FastAPI dependencies
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+
+# Additional dependencies for robust operation
+beautifulsoup4==4.13.4
+requests==2.32.4
