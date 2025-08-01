@@ -105,14 +105,14 @@ Response:"""
     
     def _generate_greeting_response(self) -> str:
         """Generate a greeting response."""
-        return ("Hello! I'm EduBot, your helpful assistant for Nigerian education. "
+        return ("Hello! I'm Sophia, your helpful assistant for Nigerian education. "
                 "I can help you with questions about universities, admissions, courses, "
                 "educational policies, and more. What would you like to know?")
     
     def _generate_chitchat_response(self, query: str) -> str:
         """Generate response for chitchat queries."""
         try:
-            prompt = f"""You are EduBot, a friendly educational assistant. 
+            prompt = f"""You are Sophia, a friendly educational assistant. 
 Respond briefly and kindly to this message, then gently redirect to educational topics.
 
 User message: {query}
@@ -128,7 +128,7 @@ Keep your response warm but brief, and suggest how you can help with education."
     def _generate_general_knowledge_response(self, query: str, context: str) -> str:
         """Generate response using general knowledge."""
         try:
-            prompt = f"""You are EduBot, an educational assistant specializing in Nigerian education.
+            prompt = f"""You are Sophia, an educational assistant specializing in Nigerian education.
 The user asked about something that might not be in your specific knowledge base.
 
 {context}
@@ -164,7 +164,7 @@ Response:"""
     def _generate_general_knowledge_with_sources(self, query: str, context: str) -> str:
         """Generate response using general knowledge and suggest better sources."""
         try:
-            prompt = f"""You are EduBot, an educational assistant specializing in Nigerian education.
+            prompt = f"""You are Sophia, an educational assistant specializing in Nigerian education.
 The user asked a question that's not covered in your specific knowledge base, but you can provide helpful general information.
 
 {context}
@@ -199,7 +199,7 @@ Response:"""
             # Get limited context from KB
             kb_context = self._prepare_knowledge_context(retrieved_nodes)
             
-            prompt = f"""You are EduBot, an educational assistant specializing in Nigerian education.
+            prompt = f"""You are Sophia, an educational assistant specializing in Nigerian education.
 You have some limited information from your knowledge base, but it doesn't fully answer the user's question.
 
 {context}

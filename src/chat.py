@@ -21,7 +21,7 @@ from src.chat_system.bot import EduBot
 
 def main():
     parser = argparse.ArgumentParser(
-        description="EduBot - Educational AI Assistant",
+        description="Sophia - Educational AI Assistant",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -51,10 +51,10 @@ Examples:
         if result['sources_count'] > 0:
             print(f"📄 Sources Found: {result['sources_count']}")
         print("-" * 60)
-        print(f"🤖 EduBot: {result['response']}")
+        print(f"🤖 Sophia: {result['response']}")
     else:
         # Interactive mode
-        print("\n🤖 EduBot - Educational AI Assistant")
+        print("\n🤖 Sophia - Educational AI Assistant")
         print("Type 'quit', 'exit', or 'bye' to exit")
         print("Type 'status' to see system status")
         print("Type 'clear' to clear conversation history")
@@ -96,7 +96,7 @@ Examples:
                 print("-" * 50)
                 
                 # Display response
-                print(f"🤖 EduBot: {result['response']}")
+                print(f"🤖 Sophia: {result['response']}")
                 
             except KeyboardInterrupt:
                 print("\n\n👋 Goodbye! Have a great day!")

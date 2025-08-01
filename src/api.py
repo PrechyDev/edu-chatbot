@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="EduBot API",
+    title="Sophia AI API",
     description="Nigerian Education Chatbot with conversation memory and RAG capabilities",
     version="1.0.0",
     docs_url="/docs",
