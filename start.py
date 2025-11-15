@@ -21,6 +21,7 @@ if __name__ == "__main__":
         "api:app",  # Import api.py from src directory
         host="0.0.0.0", 
         port=port,
+        loop="asyncio",
         reload=os.environ.get('RAILWAY_ENVIRONMENT') != 'production'
     )
     
