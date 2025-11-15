@@ -21,6 +21,9 @@ from src.config import (
     QDRANT_DB_PATH,
     QDRANT_COLLECTION_NAME,
 )
+import nest_asyncio
+
+nest_asyncio.apply()
 
 logger = logging.getLogger(__name__)
 
