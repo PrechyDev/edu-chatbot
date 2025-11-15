@@ -11,7 +11,7 @@ load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "YOUR_GOOGLE_API_KEY")
 
 # --- Model Names ---
-METADATA_EXTRACTOR_MODEL = "gemini-1.5-flash"
+METADATA_EXTRACTOR_MODEL = "gemini-2.5-flash"
 EMBEDDING_MODEL = "embedding-001"
 QUERY_MODEL = "gemini-2.5-flash"
 
