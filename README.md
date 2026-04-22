@@ -68,14 +68,14 @@ rag_chain.ipynb       # RAG chain experiments
   - `/delete` - Delete chat history.
 
 ## Roadmap
-- [ ] Multi-format data ingestion
-- [ ] Hybrid metadata extraction
-- [ ] Semantic chunking
-- [ ] Gemini LLM integration
-- [ ] Hybrid retrieval (sparse + dense)
-- [ ] Reranking
-- [ ] Conversational memory
-- [ ] RESTful API
+- [x] Multi-format data ingestion
+- [x] Hybrid metadata extraction
+- [x] Semantic chunking
+- [x] Gemini LLM integration
+- [x] Hybrid retrieval (sparse + dense)
+- [x] Reranking
+- [x] Conversational memory
+- [x] RESTful API
 - [ ] MongoDB integration for chat history
 - [ ] User authentication
 - [ ] Admin dashboard for uploads
